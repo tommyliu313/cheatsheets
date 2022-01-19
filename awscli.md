@@ -12,6 +12,12 @@ aws ec2 start-instances --instance-ids i-12345678c
 aws ec2 terminate-instances --instance-ids i-12345678c
 ```
 
+### RDS
+```
+aws rds create-db-snapshot --db-instance-identifier mytestdb --db-snapshot-identifier mydbsnapshot
+aws rds delete-db-snapshot --db-snapshot-identifier mydbsnapshot
+```
+
 ### S3
 
 ```
